@@ -3,6 +3,7 @@ buildscript {
         springBootVersion = '1.2.0.RELEASE'
     }
     repositories {
+        mavenLocal()
         maven { url 'http://maven.oschina.net/content/groups/public' }
         mavenCentral()
     }
@@ -26,6 +27,7 @@ sourceCompatibility = 1.7
 targetCompatibility = 1.7
 
 repositories {
+    mavenLocal()
     maven { url 'http://maven.oschina.net/content/groups/public' }
     mavenCentral()
 }
@@ -38,6 +40,7 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
     compile("org.springframework.boot:spring-boot-starter-jdbc")
     compile("org.springframework.boot:spring-boot-starter-data-rest")
+    compile("com.h2database:h2")
     providedRuntime("org.springframework.boot:spring-boot-starter-tomcat")
     testCompile("org.springframework.boot:spring-boot-starter-test")
 }
