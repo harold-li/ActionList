@@ -1,4 +1,4 @@
-package action;
+package org.power.action;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

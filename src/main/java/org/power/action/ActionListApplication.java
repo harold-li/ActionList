@@ -1,4 +1,4 @@
-package action;
+package org.power.action;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
